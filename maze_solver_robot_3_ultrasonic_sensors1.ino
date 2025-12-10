@@ -45,6 +45,7 @@ void loop(){
  Center();
  Left();
  RobotMovement();
+ delay(100);//small delay for stability
 }
 
 void Right() //The code to get Right sensor value
@@ -150,7 +151,6 @@ void RobotMovement()// The main movements of the robot
      Serial.println("Robot Moving Reverse");
     }
    }
-  delay(1000);
 }
 
 
